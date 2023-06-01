@@ -642,6 +642,7 @@
             width: 100%;
             flex-direction: row;
             flex-wrap: wrap;
+            padding-top: 20px;
         }
         
         .titre-infocomplémentaire {
@@ -677,21 +678,30 @@
             flex-direction: column;
             flex-wrap: wrap;
             align-items: center;
+            border-left: solid #0080ff 1px;
+            border-right: solid #0080ff 1px;
         }
         
         .langues-list {
             display: flex;
             flex-direction: column;
             height: 80%;
-            width: 100%;
+            width: 60%;
             margin: 0;
             padding-left: 0;
             justify-content: space-between;
             align-items: center;
             padding-top: 10px;
             list-style-type: none;
-            border-left: solid #0080ff 1px;
-            border-right: solid #0080ff 1px;
+        }
+        
+        .langue-niveau {
+            display: flex;
+            height: 27px;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
         }
         
         .autrespassions {
@@ -993,6 +1003,7 @@
                 width: 100%;
                 flex-direction: row;
                 flex-wrap: wrap;
+                padding-top: 20px;
             }
             footer {
                 display: flex;
@@ -1369,9 +1380,10 @@
             }
             .Langues {
                 display: flex;
-                height: 190px;
+                height: 150px;
                 width: 100%;
                 justify-content: space-between;
+                border: none;
             }
             .autrespassions {
                 display: flex;
@@ -1381,6 +1393,7 @@
             .langues-list {
                 display: flex;
                 border: none;
+                padding-top: 0;
             }
             .autrespassions-list {
                 display: flex;
