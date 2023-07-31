@@ -1,4 +1,4 @@
 # cvweb
 
 
-Mon CV format web responsif
+Mon CV format web responsive
